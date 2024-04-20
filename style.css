@@ -1,0 +1,43 @@
+.box{
+    height: 90px;
+    padding: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    margin: 100px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.navbar{
+    display: flex;
+    text-align: none;
+    list-style: none;
+    background: transparent;
+    padding: 10px;
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+ul li{
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: blue;
+    }
